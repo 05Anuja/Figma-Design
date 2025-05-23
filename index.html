@@ -3,124 +3,127 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Figma Design</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Agency</title>
   </head>
   <body>
-    <nav>
-      <div id="img">
-        <img src="./Images/Logo.png" alt="Logo" />
+    <section id="navbar">
+      <div id="logo">
+        <img src="./Images/Logo.png" alt="Agency-Logo" />
       </div>
 
-      <!-- Hamburger -->
-      <div class="hamburger" id="hamburger">&#9776;</div>
-
-      <!-- Nav Links -->
-      <div id="sections">
+      <nav id="nav-links" class="hide">
         <ul>
           <li>About</li>
           <li>Services</li>
           <li>Pricing</li>
           <li>Blog</li>
         </ul>
-      </div>
+      </nav>
 
-      <!-- Contact Button -->
-      <div id="contact-btn">
+      <div id="nav-btn">
         <button>Contact</button>
       </div>
-    </nav>
 
-    <section id="home-section">
-      <div id="homeImg">
-        <img src="./Images/Home_Page2.png" alt="" />
-      </div>
-      <div id="homeImg2">
-        <img src="./Images/Home_Page.png" alt="" />
+      <div id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </section>
 
-    <section id="about-section">
-      <div id="about-images">
-        <div class="img1">
-          <img src="./Images/About_Image/Image1.png" alt="" />
+    <section id="home">
+      <div id="home1">
+        <p id="home-text1">modern studio</p>
+        <p id="home-text2">we're help to build your dream project</p>
+        <p id="home-text3">
+          Agency provides a full service range including technical skills,
+          design, business understanding.
+        </p>
+        <div id="home-btns">
+          <button id="btn-1">how we work</button>
+          <p id="contact">Contact Us</p>
         </div>
-        <div class="img1">
-          <img src="./Images/About_Image/Image2.png" alt="" />
-        </div>
-        <div class="img1">
-          <img src="./Images/About_Image/Image3.png" alt="" />
-        </div>
-        <div class="img1">
-          <img src="./Images/About_Image/Image4.png" alt="" />
-        </div>
-        <div class="img1">
-          <img src="./Images/About_Image/Image5.png" alt="" />
-        </div>
-      </div>
-
-      <div id="about-divs">
-        <div id="about-div1Img">
-          <img src="./Images/about1.png" alt="" />
-        </div>
-        <div id="about-div2Img">
-          <img src="./Images/about2.png" alt="" />
+        <div id="home-pic">
+          <img src="./Images/homePicture.png" alt="" />
+          <div id="home-pic-text">
+            <p id="home-pic-text1">"Put themselves in the merchant's shoes"</p>
+            <p id="home-pic-text2">Meta Inc.</p>
+          </div>
         </div>
       </div>
-
-      <div id="about-numbers">
-        <div id="number1" class="nos">
-          <p class="number">42%</p>
-          <p class="text">Years of experience</p>
-        </div>
-        <div id="number2" class="nos">
-          <p class="number">73+</p>
-          <p class="text">Agency members</p>
-        </div>
-        <div id="number3" class="nos">
-          <p class="number">5000</p>
-          <p class="text">Projects complete</p>
-        </div>
+      <div id="home2">
+        <img src="./Images/homePic.png" alt="" />
       </div>
+    </section>
 
-      <div id="work">
-        <div id="work-text">
-          <p id="text1">HOW WE WORK</p>
-          <p id="text2">Make Your Project Look Awesome</p>
-          <p id="text3">
-            Technical skills, design, business understanding, ability to put
-            themselves in the merchant's shoes.
+    <section id="about">
+      <div id="about-imgs">
+        <img src="./Images/AboutPics.png" alt="">
+      </div>
+      <hr>
+      <div id="about-img-text">
+        <div id="about-img">
+          <img src="./Images/aboutPic.png" alt="" />
+        </div>
+        <div id="about-text">
+          <p id="about-text1">about</p>
+          <p id="about-text2">an experience design agency</p>
+          <p id="about-text3">Provides a full service range</p>
+          <p id="about-text4">
+            Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.
           </p>
-          <p id="text4">Read More</p>
-        </div>
-
-        <div id="services">
-          <ul>
-            <li>
-              <div class="number">1</div>
-              <p>Full service range including</p>
-            </li>
-            <li>
-              <div class="number">2</div>
-              <p>Technical skills, design, business</p>
-            </li>
-            <li>
-              <div class="number">3</div>
-              <p>Themselves in the merchant's shoes</p>
-            </li>
-          </ul>
+          <button id="about-btn">about us</button>
         </div>
       </div>
-
-      <div id="video">
-        <div id="video-img">
-          <img src="./Images/Video.png" alt="">
+      <div id="about-numbers">
+        <div class="about-number1">
+            <p class="nos">42%</p>
+            <p class="text">Years of experience</p>
         </div>
-        <div id="video-content">
-          <img src="./Images/videoText.png" alt="">
+        <div class="about-number1">
+            <p class="nos">73+</p>
+            <p class="text">Agency members</p>
+        </div>
+        <div class="about-number1">
+            <p class="nos">5.000</p>
+            <p class="text">Projects complete</p>
+        </div>
+      </div>
+      <div id="about-work">
+        <div id="work-texts">
+            <p id="work-text1">how we work</p>
+            <p id="work-text2">making your projects look awesome</p>
+            <p id="work-text3">Technical skills, design, business understanding, ability to put themselves in the merchant's shoes.</p>
+            <p id="work-text4">read more</p>
+        </div>
+        <div id="work-lists">
+            <div class="work-list">
+                <span class="list-num">1</span>
+                <p class="list-text">Full service range including</p>
+            </div>
+            <div class="work-list">
+                <span class="list-num">2</span>
+                <p class="list-text">Technical skills, design, business</p>
+            </div>
+            <div class="work-list">
+                <span class="list-num">3</span>
+                <p class="list-text">Themselves in the merchant's</p>
+            </div>
+        </div>
+      </div>
+      <hr>
+      <div id="video-reel">
+        <div id="video-img">
+            <img src="./Images/VideoReel.png" alt="">
+        </div>
+        <div id="video-text">
+            <p id="video-text1">video reel</p>
+            <p id="video-text2">unlock the greatest value possible</p>
+            <p id="video-text3">Design, business understanding, ability to put themselves in the merchant's shoes meant to partner.</p>
         </div>
       </div>
     </section>
+    <script src="./script.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>
