@@ -668,3 +668,191 @@ body {
   background-color: #f56342;
 }
 
+#plans {
+  background-color: rgba(253, 240, 233, 1);
+  padding: 50px;
+}
+
+#plans .pricing {
+  color: rgba(239, 109, 88, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  width: 77px;
+  height: 32px;
+  margin-left: 40px;
+}
+
+#plans .our-plans {
+  width: 358px;
+  height: 128px;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 64px;
+  margin-left: 40px;
+  letter-spacing: -1px;
+  color: rgba(57, 20, 0, 1);
+  text-transform: capitalize;
+}
+
+#plan-card img {  
+  margin-top: 70px;
+  margin-left: 100px;
+  height: 512px;
+  width: 1000px;
+}
+/* 
+.planCard {
+  border: 1px solid rgba(243, 209, 191, 1);
+  width: 391px;
+  height: 512px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.design {
+  position: absolute;
+  border: 1px solid rgba(243, 209, 191, 1);
+  width: 391px;
+  height: 560px;
+  left: 100px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+} */
+/* FAQ layout */
+#faq {
+  display: flex;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.faq1 {
+  flex: 1;
+}
+
+.faq-text1 {
+  font-weight: 400;
+  color: rgba(239, 109, 88, 1);
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-left: 106px;
+}
+
+.faq-text2 {
+  font-weight: 800;
+  color: rgba(57, 20, 0, 1);
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0px;
+  margin-left: 100px;
+  width: 371px;
+  margin-top: 20px;
+  height: 96px;
+}
+
+.faq-description {
+  width: 470px;
+  color: rgba(57, 20, 0, 0.64);
+  height: 67px;
+  margin-left: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 20px;
+  letter-spacing: 0px;
+}
+
+.faq-contact {
+  color: rgba(57, 20, 0, 1);
+  width: 88px;
+  margin-top: 10px;
+  margin-left: 100px;
+  height: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.faq2 {
+  flex: 2;
+}
+
+.faq-item {
+  width: 570px;
+  height: 113px;
+  border: 1px solid rgba(243, 209, 191, 1);
+  padding: 20px;
+}
+
+.faq-item1 {
+  border-top-left-radius: 6px;
+  height: 273px;
+  border-top-right-radius: 6px;
+}
+
+.faq-item4 {
+border-bottom-right-radius: 6px;
+height: 113px;
+border-bottom-left-radius: 6px;
+}
+
+.faq-item1 h3 {
+  width: 570px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: rgba(57, 20, 0, 1);
+}
+
+.faq-item1 h3  span {
+  margin-right: 40px;
+}
+
+.faq-item1 p {
+  width: 470px;
+  /* margin: auto; */
+  /* margin-top: 100px; */
+  padding: 30px;
+  height: 121px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: rgba(57, 20, 0, 0.64);
+}
+
+/* .faq-item:last-child {
+  border-bottom: none;
+} */
+
+.faq-item h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0;
+  color: rgba(57, 20, 0, 1);
+}
+
+.faq-item p {
+  font-size: 15px;
+  color: #7d6c60;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.faq-item.active {
+  background-color: #fffaf8;
+}
+
+.icon {
+  font-size: 16px;
+  color: #f15a29;
+}
