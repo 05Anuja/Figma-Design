@@ -856,3 +856,146 @@ border-bottom-left-radius: 6px;
   font-size: 16px;
   color: #f15a29;
 }
+
+#map-form {
+  background: url("./Images/map.png");
+  height: 720px;
+  padding: 90px 100px;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 1);
+  width: 470px;
+  border-radius: 6px;
+  height: 464px;
+  padding: 40px;
+}
+
+form p {
+  color: rgba(57, 20, 0, 1);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+input, select {
+  border: 1px solid rgba(243, 209, 191, 1);
+  width: 374px;
+  height: 76px;
+  padding: 10px;
+  display: block;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+textarea {
+  border: 1px solid rgba(243, 209, 191, 1);
+  width: 374px;
+  height: 124px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  resize: none;
+}
+
+form button {
+  width: 154px;
+  height: 48px;
+  font-weight: 900;
+  background-color: rgba(239, 109, 88, 1);
+  color: #fff;
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-left: 224px;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#footer {
+  background-color: rgba(253, 240, 233, 1);
+  color: #28293E;
+  padding: 80px;
+}
+
+#footer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  color: rgba(57, 20, 0, 1);
+}
+
+#footer1 .agency {
+  width: 90px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.heading {
+  color: rgba(239, 109, 88, 1);
+  text-transform: uppercase;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #ea6b5e; /* salmon/red color */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle i {
+  color: white;
+  font-size: 20px;
+}
+
+#footer hr {
+  background-color: rgba(243, 209, 191, 1);
+  /* background-color: yellow; */
+  height: 2px;
+}
+
+#footer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#footer2 .copyright-text {
+  color: rgba(57, 20, 0, 0.64);
+}
+
+#footer2 .tnc {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  color: rgba(57, 20, 0, 1);
+}
