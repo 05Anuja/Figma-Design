@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Epilogue', sans-serif;
 }
 
 body, #navbar, #nav-btn button {
@@ -12,6 +12,16 @@ body, #navbar, #nav-btn button {
 body {
   color: #fff;
 }
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 
 #navbar {
   height: 80px;
@@ -37,6 +47,7 @@ body {
 #nav-links ul li {
   font: 400 16px/32px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
+  margin-top: -20px;
 }
 
 #nav-btn button {
@@ -858,7 +869,7 @@ border-bottom-left-radius: 6px;
 }
 
 #map-form {
-  background: url("./Images/map.png");
+  background: url("../Images/map.png");
   height: 720px;
   padding: 90px 100px;
 }
