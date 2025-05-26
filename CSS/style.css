@@ -457,7 +457,7 @@ body {
   margin-top: 30px;
 }
 
-#heading p{
+#heading h1{
   margin: auto;
   width: 104px;
   height: 32px;
@@ -871,7 +871,7 @@ form {
   padding: 40px;
 }
 
-form p {
+form h3 {
   color: rgba(57, 20, 0, 1);
   text-transform: capitalize;
   font-weight: 700;
